@@ -33,7 +33,7 @@ def show_color(new_color):
 def new_canvas():
     canvas.delete('all')
     display_pallete()
-eraser=PhotoImage(file="eraser.jpg")
+eraser=tk.PhotoImage(file="clear.png")
 Button(root,image=eraser,bg="#f2f3f5",command=new_canvas).place(x=30,y=400)
 
 colors=Canvas(root,bg="#ffffff",width=37,height=300,bd=0)
